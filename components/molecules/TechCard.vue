@@ -4,13 +4,13 @@
     role="article"
     class="flex flex-col items-center justify-center"
   >
-    <Picture :imageSrc="blok.logo.filename" :imageAlt="blok.logo.alt" />
+    <Picture :image-src="blok.logo.filename" :image-alt="blok.logo.alt" />
     <Heading tag="h4" :content="blok.name" class="font-text" />
     <ExternalLink
       class="text-md text-gray-500"
-      :link="blok.url"
-      :content="blok.url"
-      :alt="blok.url"
+      :link="blok.url.url"
+      :content="blok.url.url"
+      :alt="blok.url.url"
     />
   </article>
 </template>

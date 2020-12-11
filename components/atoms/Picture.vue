@@ -1,16 +1,14 @@
 <template>
-  <figure class="mb-6 rounded-full pt-4">
+  <figure class="mb-6 pt-4">
     <img
       :src="
         imageSrc.replace(
           '//a.storyblok.com',
-          '//img2.storyblok.com/250x250/filters:format(jpg)'
+          '//img2.storyblok.com/0x120/filters:format(png)'
         )
       "
       :alt="imageAlt"
-      class="rounded-full object-cover"
-      width="250"
-      height="250"
+      height="120"
     />
   </figure>
 </template>

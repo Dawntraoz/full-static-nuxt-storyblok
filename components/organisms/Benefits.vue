@@ -6,7 +6,9 @@
       :key="heading._uid"
       :blok="heading"
     />
-    <div class="flex flex-wrap items-stretch md:-mr-6 py-8 md:py-16">
+    <div
+      class="flex flex-wrap justify-center items-stretch md:-mr-6 py-8 md:py-16"
+    >
       <div
         v-for="benefit in blok.benefits"
         :key="benefit._uid"

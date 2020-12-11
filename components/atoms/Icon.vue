@@ -1,8 +1,8 @@
 <template>
   <div
-    class="rounded-medium flex flex-col items-center justify-center w-16 h-16 mb-6"
+    class="rounded-full flex flex-col items-center justify-center w-16 h-16 mb-6"
   >
-    <img :src="iconSrc" :alt="iconAlt" width="50" height="50" />
+    <img :src="iconSrc" :alt="iconAlt" width="35" />
   </div>
 </template>
 

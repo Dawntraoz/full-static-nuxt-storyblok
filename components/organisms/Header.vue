@@ -2,7 +2,7 @@
   <header class="py-6">
     <nav class="container flex justify-between">
       <nuxt-link :to="availableLocaleLink">
-        <Heading tag="h2" content="Blokim" />
+        <Heading tag="h2" content="Full static" />
       </nuxt-link>
       <LinkList
         class="flex flex-col md:flex-row items-end md:items-center py-2 space-y-2 md:space-y-0 md:space-x-12"

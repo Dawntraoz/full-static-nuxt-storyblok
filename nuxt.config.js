@@ -43,7 +43,7 @@ export default {
     [
       'storyblok-nuxt',
       {
-        accessToken: '',
+        accessToken: process.env.API_KEY,
         cacheProvider: 'memory',
       },
     ],
@@ -71,26 +71,26 @@ export default {
       fallbackLocale: 'en',
       messages: {
         en: {
-          benefits: 'Our benefits',
-          techstack: 'Our JAMstack',
+          benefits: 'Benefits',
+          techstack: 'JAMstack',
           benefitsUrl: 'our-benefits',
           techstackUrl: 'our-jamstack',
           footer: {
             desc:
-              'Following atomic design will help you integrate your design with the frontend and backend.',
+              'Get incredible results in performance, surprise your audience by returning to the Full Static.',
             internal: 'Internal links',
             social: 'Social media',
             contact: 'Contact',
           },
         },
         es: {
-          benefits: 'Nuestros beneficios',
-          techstack: 'Nuestro JAMstack',
+          benefits: 'Beneficios',
+          techstack: 'JAMstack',
           benefitsUrl: 'nuestros-beneficios',
           techstackUrl: 'nuestro-jamstack',
           footer: {
             desc:
-              'Seguir Atomic Design te ayudará a integrar tu diseño con el frontend y el backend.',
+              'Consigue resultados increíbles en performance, sorprende a tu público volviendo al Full Static.',
             internal: 'Links internos',
             social: 'Social media',
             contact: 'Contacto',
