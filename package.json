@@ -12,7 +12,7 @@
     "test": "jest"
   },
   "dependencies": {
-    "@nuxtjs/pwa": "^3.3.2",
+    "@nuxtjs/pwa": "^3.3.3",
     "@nuxtjs/robots": "^2.4.2",
     "core-js": "^3.8.1",
     "nuxt": "^2.14.12",
