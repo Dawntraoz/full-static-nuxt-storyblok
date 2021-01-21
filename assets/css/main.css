@@ -1,4 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+@font-face {
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: local('Quicksand'),
+    url('~assets/fonts/Quicksand-Medium.woff') format('truetype');
+}
 
 @font-face {
   font-family: 'Gilroy Bold';
