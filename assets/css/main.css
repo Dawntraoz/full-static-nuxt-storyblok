@@ -5,7 +5,7 @@
   font-weight: 500;
   font-display: swap;
   src: local('Quicksand'),
-    url('~assets/fonts/Quicksand-Medium.woff') format('truetype');
+    url('~assets/fonts/Quicksand-Medium.ttf') format('truetype');
 }
 
 @font-face {
