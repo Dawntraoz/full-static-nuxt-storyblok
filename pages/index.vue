@@ -12,11 +12,10 @@
 <script>
 export default {
   asyncData(context) {
-    // This what would we do in real project
     const version =
       context.query._storyblok || context.isDev ? 'draft' : 'published'
 
-    // Load the JSON from the API - loadig the page content (any other page)
+    // Load the JSON from the API - loading the page content (any other page)
     return context.app.$storyapi
       .get('cdn/stories' + context.route.path + '/home', {
         version,
@@ -28,7 +27,7 @@ export default {
         if (!res.response) {
           context.error({
             statusCode: 404,
-            message: 'Failed to receive content form api',
+            message: 'Failed to receive content from api',
           })
         } else {
           context.error({

@@ -2,74 +2,39 @@ import { render, screen } from '@testing-library/vue'
 
 import Header from '@/components/organisms/Header.vue'
 import Vuei18n from 'vue-i18n'
+import config from '@/nuxt.config.js'
 
-const messages = {
-  en: {
-    benefits: 'Benefits',
-    techstack: 'JAMstack',
-    benefitsUrl: 'our-benefits',
-    techstackUrl: 'our-jamstack',
-  },
-  es: {
-    benefits: 'Beneficios',
-    techstack: 'JAMstack',
-    benefitsUrl: 'nuestros-beneficios',
-    techstackUrl: 'nuestro-jamstack',
-  },
-}
-const locales = [
-  {
-    code: 'en',
-    name: 'EN',
-  },
-  {
-    code: 'es',
-    name: 'ES',
-  },
-]
+describe('Header component', () => {
+  const renderExtended = (locale) => {
+    render(Header, { mocks: { localePath: () => 'url' } }, (vue) => {
+      // Let's register and configure Vuei18n normally
+      vue.use(Vuei18n)
 
-test('should render the links on header in English', () => {
-  render(Header, { mocks: { localePath: () => 'url' } }, (vue) => {
-    // Let's register and configure Vuei18n normally
-    vue.use(Vuei18n)
+      const i18n = new Vuei18n({
+        locale,
+        fallbackLocale: 'en',
+        messages: config.i18n.vueI18n.messages,
+      })
 
-    const i18n = new Vuei18n({
-      locale: 'en',
-      fallbackLocale: 'en',
-      messages,
+      i18n.locales = config.i18n.locales
+
+      // Notice how we return an object from the callback function. It will be
+      // merged as an additional option on the created Vue instance.
+      return {
+        i18n,
+      }
     })
+  }
 
-    i18n.locales = locales
+  test('should render the links on header in English', () => {
+    renderExtended('en')
 
-    // Notice how we return an object from the callback function. It will be
-    // merged as an additional option on the created Vue instance.
-    return {
-      i18n,
-    }
+    expect(screen.getByText('Benefits')).toBeInTheDocument()
   })
 
-  expect(screen.getByText('Benefits')).toBeInTheDocument()
-})
+  test('should render the links on header in Spanish', () => {
+    renderExtended('es')
 
-test('should render the links on header in Spanish', () => {
-  render(Header, { mocks: { localePath: () => 'url' } }, (vue) => {
-    // Let's register and configure Vuei18n normally
-    vue.use(Vuei18n)
-
-    const i18n = new Vuei18n({
-      locale: 'es',
-      fallbackLocale: 'en',
-      messages,
-    })
-
-    i18n.locales = locales
-
-    // Notice how we return an object from the callback function. It will be
-    // merged as an additional option on the created Vue instance.
-    return {
-      i18n,
-    }
+    expect(screen.getByText('Beneficios')).toBeInTheDocument()
   })
-
-  expect(screen.getByText('Beneficios')).toBeInTheDocument()
 })

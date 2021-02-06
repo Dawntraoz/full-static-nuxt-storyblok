@@ -1,5 +1,7 @@
 import '@testing-library/jest-dom'
 import Vue from 'vue'
+import StoryblokVue from 'storyblok-vue'
+
 import { config } from '@vue/test-utils'
 
 /* Child atoms (auto imported) */
@@ -15,8 +17,18 @@ const atoms = [
 const molecules = [
   '@/components/molecules/LinkList.vue',
   '@/components/molecules/LinkSection.vue',
+  '@/components/molecules/HeadingSection.vue',
+  '@/components/molecules/BenefitCard.vue',
+  '@/components/molecules/TechCard.vue',
 ]
-const components = [...atoms, ...molecules]
+/* Child organisms (auto imported) */
+const organisms = [
+  '@/components/organisms/Benefits.vue',
+  '@/components/organisms/TechStack.vue',
+]
+/* Template */
+const template = ['@/components/PageTemplate.vue']
+const components = [...atoms, ...molecules, ...organisms, ...template]
 components.forEach((path) => {
   const name = path.match(/(\w*)\.vue$/)[1]
   Vue.component(`${name}`, require(path).default)
@@ -26,7 +38,5 @@ components.forEach((path) => {
 Vue.config.silent = true
 config.stubs['nuxt-link'] = { template: '<a><slot /></a>' }
 
-// Mock Editable Storyblok directive
-Vue.directive('editable', {
-  update: () => '',
-})
+// Use Storyblok package
+Vue.use(StoryblokVue)

@@ -1,7 +1,7 @@
 import Vue from 'vue'
 
 /* Templates */
-import Template from '~/components/Template.vue'
+import PageTemplate from '~/components/PageTemplate.vue'
 
 /* Organisms */
 import Benefits from '~/components/organisms/Benefits.vue'
@@ -12,7 +12,7 @@ import HeadingSection from '~/components/molecules/HeadingSection.vue'
 import BenefitCard from '~/components/molecules/BenefitCard.vue'
 import TechCard from '~/components/molecules/TechCard.vue'
 
-Vue.component('PageTemplate', Template)
+Vue.component('PageTemplate', PageTemplate)
 Vue.component('Benefits', Benefits)
 Vue.component('TechStack', TechStack)
 Vue.component('HeadingSection', HeadingSection)

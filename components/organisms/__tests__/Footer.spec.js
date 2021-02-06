@@ -2,45 +2,7 @@ import { render, screen } from '@testing-library/vue'
 
 import Footer from '@/components/organisms/Footer.vue'
 import Vuei18n from 'vue-i18n'
-
-const messages = {
-  en: {
-    benefits: 'Benefits',
-    techstack: 'JAMstack',
-    benefitsUrl: 'our-benefits',
-    techstackUrl: 'our-jamstack',
-    footer: {
-      desc:
-        'Get incredible results in performance, surprise your audience by returning to the Full Static.',
-      internal: 'Internal links',
-      social: 'Social media',
-      contact: 'Contact',
-    },
-  },
-  es: {
-    benefits: 'Beneficios',
-    techstack: 'JAMstack',
-    benefitsUrl: 'nuestros-beneficios',
-    techstackUrl: 'nuestro-jamstack',
-    footer: {
-      desc:
-        'Consigue resultados increíbles en performance, sorprende a tu público volviendo al Full Static.',
-      internal: 'Links internos',
-      social: 'Social media',
-      contact: 'Contacto',
-    },
-  },
-}
-const locales = [
-  {
-    code: 'en',
-    name: 'EN',
-  },
-  {
-    code: 'es',
-    name: 'ES',
-  },
-]
+import config from '@/nuxt.config.js'
 
 test('should render the links on footer in English', () => {
   render(
@@ -53,10 +15,10 @@ test('should render the links on footer in English', () => {
       const i18n = new Vuei18n({
         locale: 'en',
         fallbackLocale: 'en',
-        messages,
+        messages: config.i18n.vueI18n.messages,
       })
 
-      i18n.locales = locales
+      i18n.locales = config.i18n.locales
 
       // Notice how we return an object from the callback function. It will be
       // merged as an additional option on the created Vue instance.
