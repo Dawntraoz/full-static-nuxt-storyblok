@@ -25,7 +25,7 @@
     "@nuxtjs/tailwindcss": "^3.4.2",
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/vue": "^5.6.1",
-    "autoprefixer": "10.2.4",
+    "autoprefixer": "10.2.5",
     "babel-core": "7.0.0-bridge.0",
     "babel-eslint": "^10.1.0",
     "babel-jest": "^26.5.0",
