@@ -10,7 +10,7 @@
       :icon-src="blok.icon.filename"
       :icon-alt="blok.icon.alt"
     />
-    <Heading tag="h4" :content="blok.name" class="font-text" />
+    <Heading tag="h4" :content="blok.name" />
     <Paragraph class="text-md text-gray-600 pb-4" :content="blok.description" />
   </article>
 </template>
