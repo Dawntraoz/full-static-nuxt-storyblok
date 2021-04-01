@@ -14,7 +14,7 @@
   "dependencies": {
     "@nuxtjs/pwa": "^3.3.5",
     "@nuxtjs/robots": "^2.5.0",
-    "core-js": "^3.9.1",
+    "core-js": "^3.10.0",
     "nuxt": "^2.15.3",
     "nuxt-i18n": "^6.22.1",
     "storyblok-nuxt": "^1.3.1"
