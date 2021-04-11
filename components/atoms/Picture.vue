@@ -4,10 +4,12 @@
       :src="
         imageSrc.replace(
           '//a.storyblok.com',
-          '//img2.storyblok.com/0x120/filters:format(png)'
+          '//img2.storyblok.com/0x120/filters:format(webp)'
         )
       "
       :alt="imageAlt"
+      class="object-contain h-28"
+      width="120"
       height="120"
     />
   </figure>
