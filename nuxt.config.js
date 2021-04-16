@@ -76,6 +76,7 @@ export default {
         name: 'ES',
       },
     ],
+    strategy: 'prefix_except_default',
     defaultLocale: 'en',
     vueI18n: {
       fallbackLocale: 'en',
