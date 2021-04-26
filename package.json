@@ -29,12 +29,12 @@
     "babel-core": "7.0.0-bridge.0",
     "babel-eslint": "^10.1.0",
     "babel-jest": "^26.5.0",
-    "eslint": "^7.24.0",
-    "eslint-config-prettier": "^8.2.0",
+    "eslint": "^7.25.0",
+    "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-nuxt": "^2.0.0",
     "eslint-plugin-prettier": "^3.4.0",
     "jest": "^26.5.0",
-    "postcss": "^8.2.12",
+    "postcss": "^8.2.13",
     "prettier": "^2.2.1",
     "vue-jest": "^3.0.4"
   }
