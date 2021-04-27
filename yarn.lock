@@ -2996,13 +2996,6 @@ aws4@^1.8.0:
   resolved "https://registry.yarnpkg.com/aws4/-/aws4-1.11.0.tgz#d61f46d83b2519250e2784daf5b09479a8b41c59"
   integrity sha512-xh1Rl34h6Fi1DC2WWKfxUTVqRsNnr6LsKz2+hfwDxQJWmrx8+c7ylaqBMcHfl1U1r2dsifOvKX3LQuLNZ+XSvA==
 
-axios@^0.21.1:
-  version "0.21.1"
-  resolved "https://registry.yarnpkg.com/axios/-/axios-0.21.1.tgz#22563481962f4d6bde9a76d516ef0e5d3c09b2b8"
-  integrity sha512-dKQiRHxGD9PPRIUNIWvZhPTPpl1rf/OxTYKsqKUDjBwYylTvV7SjSHJb9ratfyzM6wCdLCOYLzs73qpg5c4iGA==
-  dependencies:
-    follow-redirects "^1.10.0"
-
 babel-code-frame@^6.26.0:
   version "6.26.0"
   resolved "https://registry.yarnpkg.com/babel-code-frame/-/babel-code-frame-6.26.0.tgz#63fd43f7dc1e3bb7ce35947db8fe369a3f58c74b"
@@ -5822,11 +5815,6 @@ flush-write-stream@^1.0.0:
   dependencies:
     inherits "^2.0.3"
     readable-stream "^2.3.6"
-
-follow-redirects@^1.10.0:
-  version "1.13.3"
-  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.13.3.tgz#e5598ad50174c1bc4e872301e82ac2cd97f90267"
-  integrity sha512-DUgl6+HDzB0iEptNQEXLx/KhTmDb8tZUHSeLqpnjpknR70H0nC2t9N73BK6fN4hOvJ84pKlIQVQ4k5FFlBedKA==
 
 for-in@^1.0.2:
   version "1.0.2"
@@ -11108,20 +11096,19 @@ stealthy-require@^1.1.1:
   resolved "https://registry.yarnpkg.com/stealthy-require/-/stealthy-require-1.1.1.tgz#35b09875b4ff49f26a777e509b3090a3226bf24b"
   integrity sha1-NbCYdbT/SfJqd35QmzCQoyJr8ks=
 
-storyblok-js-client@^3.3.1:
-  version "3.3.1"
-  resolved "https://registry.yarnpkg.com/storyblok-js-client/-/storyblok-js-client-3.3.1.tgz#459eee7a581d5f3fc12156a428f1b3195201bb06"
-  integrity sha512-aVLYjAcXlsy4WuFLWJTci2Z5RTAxU5mW1jCZkNztXAqIsxlTqPfjYNGVjZXi0MJjvBcRHXUMN+6IpEnUEQ2azQ==
+storyblok-js-client@^4.0.3:
+  version "4.0.6"
+  resolved "https://registry.yarnpkg.com/storyblok-js-client/-/storyblok-js-client-4.0.6.tgz#14b18f445ff219dfb21a3fc559336d240b1e87f6"
+  integrity sha512-aoYr8PedWnsbtkgDRlJvzV06nis+Jz6gmsQ6DJs8bnNrE7L5GWAUyoWmSqd1HqBhJ/gxf51IqBoSlGh3hde2gw==
   dependencies:
     qs "^6.9.4"
 
-storyblok-nuxt@^1.3.1:
-  version "1.3.1"
-  resolved "https://registry.yarnpkg.com/storyblok-nuxt/-/storyblok-nuxt-1.3.1.tgz#7dc366b17d138d4086e008482b027d8ccdbd760a"
-  integrity sha512-vFSDgcwmua859hLwx1EarzhwSNZNBB9CxnuS2vZwva6pqWWvymrvLhzKEh1bPYQGPwcsPtq4j4ZlFgtiIfSN7Q==
+storyblok-nuxt@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/storyblok-nuxt/-/storyblok-nuxt-2.0.0.tgz#b315090bb87ed448fa14312fc6436f9fae1acd44"
+  integrity sha512-NpkYqpjyOLM99b0tphYdTPJWAFwqKV9FgdPRevOtE49hc0XKL6Z7e4/EjoLzUrQx6zZAMpWdotnGkEIdu0VfIw==
   dependencies:
-    axios "^0.21.1"
-    storyblok-js-client "^3.3.1"
+    storyblok-js-client "^4.0.3"
     storyblok-vue "^1.0.5"
 
 storyblok-vue@^1.0.5:
