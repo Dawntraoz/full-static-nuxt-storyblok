@@ -15,7 +15,7 @@
     "@nuxtjs/pwa": "^3.3.5",
     "@nuxtjs/robots": "^2.5.0",
     "core-js": "^3.11.1",
-    "nuxt": "^2.15.4",
+    "nuxt": "^2.15.5",
     "nuxt-i18n": "^6.26.0",
     "storyblok-nuxt": "^2.0.1"
   },
