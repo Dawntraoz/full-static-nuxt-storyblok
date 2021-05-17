@@ -40,10 +40,6 @@ export default {
     '@nuxtjs/tailwindcss',
   ],
 
-  tailwindcss: {
-    jit: true
-  },
-
   // Modules (https://go.nuxtjs.dev/config-modules)
   modules: [
     // https://go.nuxtjs.dev/pwa
@@ -87,8 +83,7 @@ export default {
           benefitsUrl: 'our-benefits',
           techstackUrl: 'our-jamstack',
           footer: {
-            desc:
-              'Get incredible results in performance, surprise your audience by returning to the Full Static.',
+            desc: 'Get incredible results in performance, surprise your audience by returning to the Full Static.',
             internal: 'Internal links',
             social: 'Social media',
             contact: 'Contact',
@@ -100,8 +95,7 @@ export default {
           benefitsUrl: 'nuestros-beneficios',
           techstackUrl: 'nuestro-jamstack',
           footer: {
-            desc:
-              'Consigue resultados increíbles en performance, sorprende a tu público volviendo al Full Static.',
+            desc: 'Consigue resultados increíbles en performance, sorprende a tu público volviendo al Full Static.',
             internal: 'Links internos',
             social: 'Social media',
             contact: 'Contacto',

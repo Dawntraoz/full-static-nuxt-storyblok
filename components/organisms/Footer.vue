@@ -1,7 +1,15 @@
 <template>
   <footer class="bg-white">
     <div
-      class="container pt-20 md:pt-32 pb-6 md:pb-12 flex flex-wrap text-gray-500"
+      class="
+        container
+        pt-20
+        md:pt-32
+        pb-6
+        md:pb-12
+        flex flex-wrap
+        text-gray-500
+      "
     >
       <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 pr-4 pb-6">
         <Heading tag="h2" content="Full static" />
@@ -71,8 +79,7 @@ export default {
             alt: 'Send me an email to info@dawntraoz.com',
           },
           {
-            link:
-              'https://www.google.com/maps?q=amsterdam&um=1&ie=UTF-8&sa=X&ved=2ahUKEwjnoNmnipTtAhVEqaQKHTIqCbAQ_AUoAnoECC4QBA',
+            link: 'https://www.google.com/maps?q=amsterdam&um=1&ie=UTF-8&sa=X&ved=2ahUKEwjnoNmnipTtAhVEqaQKHTIqCbAQ_AUoAnoECC4QBA',
             content: 'Amsterdam, The Netherlands',
             external: true,
             alt: 'Find me at Amsterdam, The Netherlands',

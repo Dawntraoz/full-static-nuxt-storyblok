@@ -5,7 +5,15 @@
         <Heading tag="h2" content="Full static" />
       </nuxt-link>
       <LinkList
-        class="flex flex-col md:flex-row items-end md:items-center py-2 space-y-2 md:space-y-0 md:space-x-12"
+        class="
+          flex flex-col
+          md:flex-row
+          items-end
+          md:items-center
+          py-2
+          space-y-2
+          md:space-y-0 md:space-x-12
+        "
         :links="links"
       />
     </nav>
