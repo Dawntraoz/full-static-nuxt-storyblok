@@ -12,8 +12,7 @@
       transition
       duration-500
       ease-in-out
-      hover:shadow-2xl
-      hover:bg-white
+      hover:shadow-2xl hover:bg-white
     "
   >
     <Icon
