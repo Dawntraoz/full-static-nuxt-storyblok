@@ -38,6 +38,7 @@ export default {
     '@nuxtjs/eslint-module',
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
+    '@/modules/generator',
   ],
 
   // Modules (https://go.nuxtjs.dev/config-modules)
@@ -53,7 +54,15 @@ export default {
         cacheProvider: 'memory',
       },
     ],
+    '@nuxtjs/sitemap',
   ],
+
+  // Sitemap module configuration: https://sitemap.nuxtjs.org/guide/configuration
+  sitemap: {
+    hostname: 'https://full-static.dawntraoz.com',
+    gzip: true,
+    trailingSlash: true,
+  },
 
   pwa: {
     meta: {

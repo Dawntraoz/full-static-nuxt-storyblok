@@ -14,7 +14,8 @@
   "dependencies": {
     "@nuxtjs/pwa": "^3.3.5",
     "@nuxtjs/robots": "^2.5.0",
-    "core-js": "^3.16.3",
+    "@nuxtjs/sitemap": "^2.4.0",
+    "core-js": "^3.17.3",
     "nuxt": "^2.15.8",
     "nuxt-i18n": "^6.28.1",
     "storyblok-nuxt": "^2.0.1"
@@ -25,18 +26,18 @@
     "@nuxtjs/tailwindcss": "^4.2.1",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/vue": "^5.8.2",
-    "autoprefixer": "10.3.3",
-    "axios": "^0.21.1",
+    "autoprefixer": "10.3.4",
+    "axios": "^0.21.4",
     "babel-core": "7.0.0-bridge.0",
     "babel-eslint": "^10.1.0",
-    "babel-jest": "^27.0.6",
+    "babel-jest": "^27.2.0",
     "eslint": "^7.32.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-nuxt": "^2.0.0",
-    "eslint-plugin-prettier": "^3.4.1",
-    "jest": "^27.0.6",
+    "eslint-plugin-prettier": "^4.0.0",
+    "jest": "^27.2.0",
     "postcss": "^8.3.6",
-    "prettier": "^2.3.2",
+    "prettier": "^2.4.0",
     "vue-jest": "^3.0.4"
   }
 }
