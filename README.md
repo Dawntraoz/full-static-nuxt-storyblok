@@ -12,7 +12,7 @@ Go to [app.storyblok.com](https://app.storyblok.com/#!/), select *Sign up* and c
 
 ### Blocks schema
 
-![Components and templates at Storyblok Full Static site](https://i.imgur.com/aXNbCyPl.png)
+![Components and templates at Storyblok Full Static site](https://i.imgur.com/aXNbCyPh.png)
 
 **Content type**
 
@@ -23,11 +23,11 @@ Go to [app.storyblok.com](https://app.storyblok.com/#!/), select *Sign up* and c
 | title      | Text       |                                                                    |
 | body       | Blocks     | Allow only specific components to be inserted: Groups -> Organisms |
 
-![Page template Storyblok schema](https://i.imgur.com/cm46ze3l.png)
+![Page template Storyblok schema](https://i.imgur.com/cm46ze3h.png)
 
 #### Body
 
-![Body block options](https://i.imgur.com/85S4pdel.png)
+![Body block options](https://i.imgur.com/85S4pdeh.png)
 
 **Nestable Molecules**
 
@@ -39,7 +39,7 @@ Go to [app.storyblok.com](https://app.storyblok.com/#!/), select *Sign up* and c
 | title        | Text       |
 | intro        | Textarea   |
     
-![Heading Section Storyblok schema](https://i.imgur.com/0qFyFC5l.png)
+![Heading Section Storyblok schema](https://i.imgur.com/0qFyFC5h.png)
 
 #### 2. Benefit Card
 
@@ -51,11 +51,11 @@ Go to [app.storyblok.com](https://app.storyblok.com/#!/), select *Sign up* and c
 | description  | Textarea          |                                                                                                  |
 
     
-![Benefit Card Storyblok schema](https://i.imgur.com/BasBxc1l.png)
+![Benefit Card Storyblok schema](https://i.imgur.com/BasBxc1h.png)
     
 Color single-option definition:
 
-![Benefit Card Color single-option definition](https://i.imgur.com/KsGclwEl.png)
+![Benefit Card Color single-option definition](https://i.imgur.com/KsGclwEh.png)
 
 #### 3. Tech Card
 
@@ -65,7 +65,7 @@ Color single-option definition:
 | name         | Text       |                     |
 | url          | Link       |                     |
 
-![Tech Card Storyblok schema](https://i.imgur.com/Eg6Jl2sl.png)
+![Tech Card Storyblok schema](https://i.imgur.com/Eg6Jl2sh.png)
 
 **Nestable Organisms**
 
@@ -76,11 +76,11 @@ Color single-option definition:
 | heading      | Blocks     | Allow only specific components to be inserted: Component -> Heading Section (1 max) |
 | benefits     | Blocks     | Allow only specific components to be inserted: Component -> Benefit Card (6 max)    |
 
-![Benefits Storyblok schema](https://i.imgur.com/IYrf7qZl.png)
+![Benefits Storyblok schema](https://i.imgur.com/IYrf7qZh.png)
 
 | Heading                                                         | Benefits                                                       |
 | --------------------------------------------------------------- | -------------------------------------------------------------- |
-| ![Heading Blocks definition](https://i.imgur.com/uOr3xLJl.png)   | ![Benefits Blocks definition](https://i.imgur.com/kt0Ur2Pl.jpg) |
+| ![Heading Blocks definition](https://i.imgur.com/uOr3xLJh.png)   | ![Benefits Blocks definition](https://i.imgur.com/kt0Ur2Ph.jpg) |
 
 #### 2. Tech Stack
 
@@ -89,11 +89,11 @@ Color single-option definition:
 | heading      | Blocks     | Allow only specific components to be inserted: Component -> Heading Section (1 max) |
 | stack        | Blocks     | Allow only specific components to be inserted: Component -> Tech Card               |
 
-![Tech stack Storyblok schema](https://i.imgur.com/U2xjfvAl.png)
+![Tech stack Storyblok schema](https://i.imgur.com/U2xjfvAh.png)
 
 | Heading                                                         | Benefits                                                        |
 | --------------------------------------------------------------- | --------------------------------------------------------------- |
-| ![Heading Blocks definition](https://i.imgur.com/TE7NdhLl.png)   | ![Tech card Blocks definition](https://i.imgur.com/C8yL3Cil.png) |
+| ![Heading Blocks definition](https://i.imgur.com/TE7NdhLh.png)   | ![Tech card Blocks definition](https://i.imgur.com/C8yL3Cih.png) |
 
 ## Components use case: Homepage
 
@@ -101,7 +101,7 @@ For the homepage we will fill in the title field and choose the organisms we wan
 
 > In this example, as in the live demo, we'll add Benefits and Tech Stack organisms.
 
-![Homepage template filled with title and body organisms](https://i.imgur.com/LyxhvNgl.png)
+![Homepage template filled with title and body organisms](https://i.imgur.com/LyxhvNgh.png)
 
 And this is how the home Config tab will look like:
 
@@ -112,19 +112,19 @@ For the organisms, let's see which blocks to add to them:
 ### Benefits Organism Content
 
 #### 1. Adding a Heading Section molecule
-![Adding a heading section to the Benefits organism](https://i.imgur.com/9DjwZmll.png)
+![Adding a heading section to the Benefits organism](https://i.imgur.com/9DjwZmlh.png)
 
 #### 2. Adding Benefit Card molecules
-![Adding a benefit card to the Benefits organism](https://i.imgur.com/5JlmwTxl.png)
+![Adding a benefit card to the Benefits organism](https://i.imgur.com/5JlmwTxh.png)
 
 
 ### Tech Stack Organism Content
 
 #### 1. Adding a Heading Section molecule
-![Adding a heading section to the Tech Stack organism](https://i.imgur.com/5sPli8hl.png)
+![Adding a heading section to the Tech Stack organism](https://i.imgur.com/5sPli8hh.png)
 
 #### 2. Adding Tech Card molecules
-![Adding a tech card to the Tech Stack organism](https://i.imgur.com/709Wnaul.png)
+![Adding a tech card to the Tech Stack organism](https://i.imgur.com/709Wnauh.png)
 
 
 
