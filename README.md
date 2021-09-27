@@ -6,6 +6,10 @@ A boilerplate project designed to demonstrate the benefits of using Jamstack and
 
 In this section we are going to look at how to define the component schemas needed for this project in our Storyblok space. What properties, type of fields, we have in each one and, finally, we will see an example of using these components to create a new page.
 
+### Create an account and start an space in Storyblok
+
+Go to [app.storyblok.com](https://app.storyblok.com/#!/), select *Sign up* and create an account. When it's ready, create an empty space and follow the next steps.
+
 ### Blocks schema
 
 ![Components and templates at Storyblok Full Static site](https://i.imgur.com/aXNbCyPl.png)
