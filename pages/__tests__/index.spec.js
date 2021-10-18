@@ -84,6 +84,7 @@ describe('Home page', () => {
               })
             },
           },
+          i18n: {}
         },
         query: '',
         route: {
@@ -91,9 +92,7 @@ describe('Home page', () => {
         },
       },
       mocks: {
-        $storybridge: {
-          on: jest.fn(),
-        },
+        $storybridge: jest.fn(),
       },
     })
 
