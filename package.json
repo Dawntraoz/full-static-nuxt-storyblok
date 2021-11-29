@@ -21,7 +21,7 @@
     "storyblok-nuxt": "^2.0.1"
   },
   "devDependencies": {
-    "@nuxtjs/eslint-config": "^7.0.0",
+    "@nuxtjs/eslint-config": "^8.0.0",
     "@nuxtjs/eslint-module": "^3.0.2",
     "@nuxtjs/tailwindcss": "^4.2.1",
     "@testing-library/jest-dom": "^5.15.1",
@@ -33,10 +33,10 @@
     "babel-jest": "^27.3.1",
     "eslint": "^8.3.0",
     "eslint-config-prettier": "^8.3.0",
-    "eslint-plugin-nuxt": "^3.0.0",
+    "eslint-plugin-nuxt": "^3.1.0",
     "eslint-plugin-prettier": "^4.0.0",
     "jest": "^27.3.1",
-    "postcss": "^8.4.1",
+    "postcss": "^8.4.4",
     "prettier": "^2.5.0",
     "vue-jest": "^3.0.4"
   }
