@@ -37,7 +37,7 @@
     "eslint-plugin-prettier": "^4.0.0",
     "jest": "^27.4.3",
     "postcss": "^8.4.4",
-    "prettier": "^2.5.0",
+    "prettier": "^2.5.1",
     "vue-jest": "^3.0.4"
   }
 }
