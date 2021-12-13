@@ -46,7 +46,7 @@ export default {
     // https://go.nuxtjs.dev/pwa
     '@nuxtjs/robots',
     '@nuxtjs/pwa',
-    'nuxt-i18n',
+    '@nuxtjs/i18n',
     [
       'storyblok-nuxt',
       {
