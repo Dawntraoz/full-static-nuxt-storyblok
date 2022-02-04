@@ -24,7 +24,7 @@
     "@nuxtjs/eslint-module": "^3.0.2",
     "@nuxtjs/tailwindcss": "^4.2.1",
     "@storyblok/nuxt": "^2.0.5",
-    "@testing-library/jest-dom": "^5.16.1",
+    "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/vue": "^5.8.2",
     "autoprefixer": "10.4.2",
     "axios": "^0.24.0",
