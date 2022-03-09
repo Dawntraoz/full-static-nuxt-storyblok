@@ -22,7 +22,7 @@
   "devDependencies": {
     "@nuxtjs/eslint-config": "^8.0.0",
     "@nuxtjs/eslint-module": "^3.0.2",
-    "@nuxtjs/tailwindcss": "^5.0.0-4",
+    "@nuxtjs/tailwindcss": "^5.0.0",
     "@storyblok/nuxt": "^2.0.5",
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/vue": "^6.5.1",
