@@ -1835,18 +1835,27 @@
   dependencies:
     "@sinonjs/commons" "^1.7.0"
 
-"@storyblok/nuxt@^2.0.5":
-  version "2.0.5"
-  resolved "https://registry.yarnpkg.com/@storyblok/nuxt/-/nuxt-2.0.5.tgz#bba88a37fdcbd71ca4d2b499f3127fdb889b8486"
-  integrity sha512-Xdnfv0/zZwxz9sseeUxigHcek3kk7tnBQujMWpLW1GI2VFfa7ft7Zr+8yFUAz1pUOayQlKyRNhF3dHUrwG8p2w==
+"@storyblok/js@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@storyblok/js/-/js-1.1.0.tgz#554ed28fa0c67ecbf5330cdf5616df18686c5aed"
+  integrity sha512-R6rJ44ouCcQrCUDOKaeM1oRVW6tqIMfvLVC6SxfSIG0X+JkNtl9iS/cY4OfuaSiZnLndmN9ZkTEusderRvdODA==
   dependencies:
-    "@storyblok/vue" "^2.0.0"
-    storyblok-js-client "^4.1.5"
+    storyblok-js-client "^4.2.0"
 
-"@storyblok/vue@^2.0.0":
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/@storyblok/vue/-/vue-2.0.1.tgz#6009010a0dd50c3820fe429f4b45d69401bcd4bd"
-  integrity sha512-gIk9tlSTPlo3lSiiAbgKvEN9pGfSsVhDnMQxf1LkvgH62RJO9kdkI7mf4MZHUlfQbBfpo05Qte8w8SVUucZSjg==
+"@storyblok/nuxt@^3.0.5":
+  version "3.0.5"
+  resolved "https://registry.yarnpkg.com/@storyblok/nuxt/-/nuxt-3.0.5.tgz#3ca3c0cbb24144d2fb2f3b0cbdef065a6d6cb3ca"
+  integrity sha512-qzVAzLLNDeMPwGacFR/7rL3NuZn+wpK5mTRxiSGuw2SaPd+6dRV+69fzb1ETOT0VZGn5Caia4Mrpr8Hq3usiBw==
+  dependencies:
+    "@storyblok/vue-2" "^1.0.2"
+
+"@storyblok/vue-2@^1.0.2":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@storyblok/vue-2/-/vue-2-1.0.3.tgz#909cdf0d987a74b80dd2d955eb8c4280feeb8aa5"
+  integrity sha512-KJNSI/FROdruT214RY9MHpgkkZ1MbW3QalYKH/szUWe8ygmY2WCNsA3bj/iQcApDqC8wHKUNIpJTI5ukJkkozw==
+  dependencies:
+    "@storyblok/js" "^1.1.0"
+    "@vue/composition-api" "^1.4.9"
 
 "@testing-library/dom@^8.5.0":
   version "8.11.3"
@@ -2241,6 +2250,11 @@
     vue-template-es2015-compiler "^1.9.0"
   optionalDependencies:
     prettier "^1.18.2 || ^2.0.0"
+
+"@vue/composition-api@^1.4.9":
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/@vue/composition-api/-/composition-api-1.5.0.tgz#a6e973dcf63870c01b35407c35b40cffb51c9613"
+  integrity sha512-A3TP1JvP+BNeje1q16iuNi3uHO5y5niNAsFOJa59Ng/eMOoLSRKPoR4NARoF3tGMaZUZ+tBd8/CMjmRQ08v88w==
 
 "@vue/test-utils@^2.0.0-rc.18":
   version "2.0.0-rc.18"
@@ -9844,6 +9858,11 @@ ripemd160@^2.0.0, ripemd160@^2.0.1:
     hash-base "^3.0.0"
     inherits "^2.0.1"
 
+rollup-plugin-mjs-entry@^0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/rollup-plugin-mjs-entry/-/rollup-plugin-mjs-entry-0.1.1.tgz#b3ab47e8d49ddb1916e36ba2480dc8a62a22d533"
+  integrity sha512-uii0Txyrn4YCgP++fypLqsT3LgO3Fx0gAZLZlWRSwKCuZ+bdSzAzdVbJFATmCHcBNlO61i65EgemOVdVQYONHA==
+
 run-async@^2.4.0:
   version "2.4.1"
   resolved "https://registry.yarnpkg.com/run-async/-/run-async-2.4.1.tgz#8440eccf99ea3e70bd409d49aab88e10c189a455"
@@ -10365,12 +10384,13 @@ std-env@^3.0.1:
   resolved "https://registry.yarnpkg.com/std-env/-/std-env-3.0.1.tgz#bc4cbc0e438610197e34c2d79c3df30b491f5182"
   integrity sha512-mC1Ps9l77/97qeOZc+HrOL7TIaOboHqMZ24dGVQrlxFcpPpfCHpH+qfUT7Dz+6mlG8+JPA1KfBQo19iC/+Ngcw==
 
-storyblok-js-client@^4.1.5:
-  version "4.1.6"
-  resolved "https://registry.yarnpkg.com/storyblok-js-client/-/storyblok-js-client-4.1.6.tgz#77cae14671ed7c726f64ed323fd71aaa419e6f7c"
-  integrity sha512-7TpXlbyBbNsKdvwR/fJO+mSySBOtCWLFE+8YwUmGF6ipOYFjVctUg60AhD1H5ljWg4wjFBMlqMZrq8/cdFNTxQ==
+storyblok-js-client@^4.2.0:
+  version "4.4.0"
+  resolved "https://registry.yarnpkg.com/storyblok-js-client/-/storyblok-js-client-4.4.0.tgz#a36133f075eb2436abf4d2e6c7c6c195d4ece10e"
+  integrity sha512-QVc+efhHlFiP8f7ZlfqJ6XYaoITjC3UvP1qA9ebjNFGARap/2Q3sUl7DR5OWKVBC9bx7tsN0OWWzuTPvdRwwsQ==
   dependencies:
-    qs "^6.9.4"
+    prettier "^2.5.1"
+    rollup-plugin-mjs-entry "^0.1.1"
 
 stream-browserify@^2.0.1:
   version "2.0.2"
