@@ -2,18 +2,7 @@
   <article
     v-editable="blok"
     role="article"
-    class="
-      group
-      h-full
-      p-8
-      rounded-large
-      shadow-inner
-      bg-blue-50
-      transition
-      duration-500
-      ease-in-out
-      hover:shadow-2xl hover:bg-white
-    "
+    class="group h-full p-8 rounded-large shadow-inner bg-blue-50 transition duration-500 ease-in-out hover:shadow-2xl hover:bg-white"
   >
     <Icon
       class="group-hover:shadow-lg"

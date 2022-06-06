@@ -1,7 +1,7 @@
 import { render, screen } from '@testing-library/vue'
 
-import Header from '@/components/organisms/Header.vue'
 import Vuei18n from 'vue-i18n'
+import Header from '@/components/organisms/Header.vue'
 import config from '@/nuxt.config.js'
 
 describe('Header component', () => {

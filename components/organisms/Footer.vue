@@ -1,15 +1,7 @@
 <template>
   <footer class="bg-white">
     <div
-      class="
-        container
-        pt-20
-        md:pt-32
-        pb-6
-        md:pb-12
-        flex flex-wrap
-        text-gray-500
-      "
+      class="container pt-20 md:pt-32 pb-6 md:pb-12 flex flex-wrap text-gray-500"
     >
       <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 pr-4 pb-6">
         <Heading tag="h2" content="Full static" />

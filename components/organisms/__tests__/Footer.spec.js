@@ -1,7 +1,7 @@
 import { render, screen } from '@testing-library/vue'
 
-import Footer from '@/components/organisms/Footer.vue'
 import Vuei18n from 'vue-i18n'
+import Footer from '@/components/organisms/Footer.vue'
 import config from '@/nuxt.config.js'
 
 test('should render the links on footer in English', () => {

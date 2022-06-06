@@ -48,7 +48,7 @@ export default {
     '@nuxtjs/pwa',
     '@nuxtjs/i18n',
     [
-      '@storyblok/nuxt',
+      '@storyblok/nuxt-2/module',
       {
         accessToken: process.env.API_KEY,
         cacheProvider: 'memory',

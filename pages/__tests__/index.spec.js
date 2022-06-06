@@ -84,7 +84,7 @@ describe('Home page', () => {
               })
             },
           },
-          i18n: {}
+          i18n: {},
         },
         query: '',
         route: {
