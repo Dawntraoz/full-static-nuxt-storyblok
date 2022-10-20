@@ -24,7 +24,7 @@
     "@nuxtjs/composition-api": "^0.32.0",
     "@nuxtjs/eslint-config": "^10.0.0",
     "@nuxtjs/eslint-module": "^3.1.0",
-    "@nuxtjs/tailwindcss": "^5.0.0-4",
+    "@nuxtjs/tailwindcss": "^6.0.1",
     "@storyblok/nuxt-2": "^1.0.2",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/vue": "^6.5.1",
