@@ -2032,27 +2032,26 @@
   dependencies:
     "@sinonjs/commons" "^1.7.0"
 
-"@storyblok/js@^1.1.0":
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/@storyblok/js/-/js-1.2.1.tgz#58524378910f70644f6f61c2aa0a7fbd6d3f9b94"
-  integrity sha512-DBXKXQ+WJyIzZ9OHKN1IGpf2O3BnbBNuXi7EzIQal8hk1Ode2o1NxOtMTfTAUVCLDPmGaTWUDdhDMscm5Qa1ig==
+"@storyblok/js@^1.8.5":
+  version "1.8.6"
+  resolved "https://registry.yarnpkg.com/@storyblok/js/-/js-1.8.6.tgz#ca210b6828095e72ebdd3281202c6474f6e50392"
+  integrity sha512-MpDhwfs+TBrnfQqr9z+z7SCLnvX6/jZKCasexEvVt0Qp+MvWD7IsQtBu6WnKboTjaR4VLFb69YTk+xUG/Roqgw==
   dependencies:
-    storyblok-js-client "^4.5.2"
+    storyblok-js-client "^4.5.8"
 
-"@storyblok/nuxt-2@^1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@storyblok/nuxt-2/-/nuxt-2-1.0.2.tgz#e86e854b7885130e233d662ea93ea0ddc074f5c2"
-  integrity sha512-88b8n/P2i9N433LFjlmMHFifBSfMtnJuiqpC94aCGqrUx/VGHkX1z4mIAywGvQ6KCNh2fQsg5oTM/184WwDfOw==
+"@storyblok/nuxt-2@^1.2.3":
+  version "1.2.3"
+  resolved "https://registry.yarnpkg.com/@storyblok/nuxt-2/-/nuxt-2-1.2.3.tgz#b587d41450596b296ffde3003d7e3603880b648a"
+  integrity sha512-nUY1LMzXBm2Rn0o3U6KmpyPrhRyjBNZpz6QXVr90zLwreBVnI1dk9zt3Kp1wvzH1tGtFSfFOfVKTJURFVnUbqA==
   dependencies:
-    "@storyblok/vue-2" "^1.0.3"
+    "@storyblok/vue-2" "^2.0.1"
 
-"@storyblok/vue-2@^1.0.3":
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/@storyblok/vue-2/-/vue-2-1.0.3.tgz#909cdf0d987a74b80dd2d955eb8c4280feeb8aa5"
-  integrity sha512-KJNSI/FROdruT214RY9MHpgkkZ1MbW3QalYKH/szUWe8ygmY2WCNsA3bj/iQcApDqC8wHKUNIpJTI5ukJkkozw==
+"@storyblok/vue-2@^2.0.1":
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/@storyblok/vue-2/-/vue-2-2.0.1.tgz#c82b5f12ce399df100e07b01786e50f52358f9ef"
+  integrity sha512-ii0sjR1UZZjuc9t6fbnUEwugQBJa0yDhHtfRxpZ9Cbml7H2hHa2BZ3pAA6ZXjjQcv1XujZBRJNPwIwaE2rBHdg==
   dependencies:
-    "@storyblok/js" "^1.1.0"
-    "@vue/composition-api" "^1.4.9"
+    "@storyblok/js" "^1.8.5"
 
 "@testing-library/dom@^8.5.0":
   version "8.11.3"
@@ -2420,7 +2419,7 @@
   optionalDependencies:
     prettier "^1.18.2 || ^2.0.0"
 
-"@vue/composition-api@^1.4.6", "@vue/composition-api@^1.4.9":
+"@vue/composition-api@^1.4.6":
   version "1.6.2"
   resolved "https://registry.yarnpkg.com/@vue/composition-api/-/composition-api-1.6.2.tgz#8e65cf60cd919f23649951ed14a67d43cd32131d"
   integrity sha512-g6pCOaAB5Z987EwCBIDanRlramrgnWfrrYS8F/0axn2AL8EvyfAebDcLTSr48hac0G0rqC9ODp5LWaiupzl6Tw==
@@ -9399,7 +9398,7 @@ prettier-linter-helpers@^1.0.0:
   dependencies:
     fast-diff "^1.1.2"
 
-"prettier@^1.18.2 || ^2.0.0", prettier@^2.5.1:
+"prettier@^1.18.2 || ^2.0.0":
   version "2.5.1"
   resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.5.1.tgz#fff75fa9d519c54cf0fce328c1017d94546bc56a"
   integrity sha512-vBZcPRUR5MZJwoyi3ZoyQlc1rXeEck8KgeC9AwwOn+exuxLxq5toTRDTSaVrXHxelDMHy9zlicw8u66yxoSUFg==
@@ -9954,11 +9953,6 @@ ripemd160@^2.0.0, ripemd160@^2.0.1:
     hash-base "^3.0.0"
     inherits "^2.0.1"
 
-rollup-plugin-mjs-entry@^0.1.1:
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/rollup-plugin-mjs-entry/-/rollup-plugin-mjs-entry-0.1.1.tgz#b3ab47e8d49ddb1916e36ba2480dc8a62a22d533"
-  integrity sha512-uii0Txyrn4YCgP++fypLqsT3LgO3Fx0gAZLZlWRSwKCuZ+bdSzAzdVbJFATmCHcBNlO61i65EgemOVdVQYONHA==
-
 run-async@^2.4.0:
   version "2.4.1"
   resolved "https://registry.yarnpkg.com/run-async/-/run-async-2.4.1.tgz#8440eccf99ea3e70bd409d49aab88e10c189a455"
@@ -10493,13 +10487,10 @@ std-env@^3.0.1:
   resolved "https://registry.yarnpkg.com/std-env/-/std-env-3.0.1.tgz#bc4cbc0e438610197e34c2d79c3df30b491f5182"
   integrity sha512-mC1Ps9l77/97qeOZc+HrOL7TIaOboHqMZ24dGVQrlxFcpPpfCHpH+qfUT7Dz+6mlG8+JPA1KfBQo19iC/+Ngcw==
 
-storyblok-js-client@^4.5.2:
-  version "4.5.2"
-  resolved "https://registry.yarnpkg.com/storyblok-js-client/-/storyblok-js-client-4.5.2.tgz#f93ae4822fd5710737a516d474a5dd40ee80b96c"
-  integrity sha512-86On+EyREZdbTcYTV+0dRQ1E4Gy0hPWs43MxK5VOv6DRwbf1A7haXq6dUL8nm9i5+xgOB0GLJW0f3B9CHbq4sQ==
-  dependencies:
-    prettier "^2.5.1"
-    rollup-plugin-mjs-entry "^0.1.1"
+storyblok-js-client@^4.5.8:
+  version "4.5.8"
+  resolved "https://registry.yarnpkg.com/storyblok-js-client/-/storyblok-js-client-4.5.8.tgz#862f67d4f25b6c50334e6965bf27f6b6a755ccae"
+  integrity sha512-0Wp7Kn4RdKaKRgMmNDu8c6OC81x1mgeri4ziKDY9BsUZEIGLTNw8KFIWlHYACgMnJQn/6qZaV9kGo8IY4hv6GA==
 
 stream-browserify@^2.0.1:
   version "2.0.2"
