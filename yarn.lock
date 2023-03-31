@@ -2032,27 +2032,28 @@
   dependencies:
     "@sinonjs/commons" "^1.7.0"
 
-"@storyblok/js@^1.1.0":
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/@storyblok/js/-/js-1.2.1.tgz#58524378910f70644f6f61c2aa0a7fbd6d3f9b94"
-  integrity sha512-DBXKXQ+WJyIzZ9OHKN1IGpf2O3BnbBNuXi7EzIQal8hk1Ode2o1NxOtMTfTAUVCLDPmGaTWUDdhDMscm5Qa1ig==
+"@storyblok/js@^2.1.2":
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/@storyblok/js/-/js-2.1.2.tgz#5e4ee6c931c219f961f631e3eab262d91c213c13"
+  integrity sha512-VnYg5rE6prj2nOTfsb0HnEDO1gCGbKVhQQ7vJEP/kk9ezRgaOSoPAEZbbk+X2UJj80Cjj+fAzJV6h6jVnD0YcA==
   dependencies:
-    storyblok-js-client "^4.5.2"
+    storyblok-js-client "^5.10.1"
 
-"@storyblok/nuxt-2@^1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@storyblok/nuxt-2/-/nuxt-2-1.0.2.tgz#e86e854b7885130e233d662ea93ea0ddc074f5c2"
-  integrity sha512-88b8n/P2i9N433LFjlmMHFifBSfMtnJuiqpC94aCGqrUx/VGHkX1z4mIAywGvQ6KCNh2fQsg5oTM/184WwDfOw==
+"@storyblok/nuxt-2@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@storyblok/nuxt-2/-/nuxt-2-2.0.0.tgz#13fa379a186fa79afd3e31e194d70d0c0437daf9"
+  integrity sha512-ZG23JTvlRBX2Hy37H00AKhQ4UAAtMYkbr9FhzBnSDQZQFs+8xvj8hxo0D1svCsCCQ+oiZZWth0qkDFjVe6TiJg==
   dependencies:
-    "@storyblok/vue-2" "^1.0.3"
+    "@storyblok/vue-2" "^3.0.1"
+    fetch-ponyfill "^7.1.0"
+    node-abort-controller "^3.1.1"
 
-"@storyblok/vue-2@^1.0.3":
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/@storyblok/vue-2/-/vue-2-1.0.3.tgz#909cdf0d987a74b80dd2d955eb8c4280feeb8aa5"
-  integrity sha512-KJNSI/FROdruT214RY9MHpgkkZ1MbW3QalYKH/szUWe8ygmY2WCNsA3bj/iQcApDqC8wHKUNIpJTI5ukJkkozw==
+"@storyblok/vue-2@^3.0.1":
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@storyblok/vue-2/-/vue-2-3.0.1.tgz#b79b1f7678bcbf037ab058557428e8e3782eace0"
+  integrity sha512-UFqYG3L4zRiZP0/PTqlm7QPu7tOcGK2oflvjFLjkD6itoF9dWMwnGQ9WL6o7WSP+YBCyVsOaDPSLp4iZ6kCaTA==
   dependencies:
-    "@storyblok/js" "^1.1.0"
-    "@vue/composition-api" "^1.4.9"
+    "@storyblok/js" "^2.1.2"
 
 "@testing-library/dom@^8.5.0":
   version "8.11.3"
@@ -2420,7 +2421,7 @@
   optionalDependencies:
     prettier "^1.18.2 || ^2.0.0"
 
-"@vue/composition-api@^1.4.6", "@vue/composition-api@^1.4.9":
+"@vue/composition-api@^1.4.6":
   version "1.6.2"
   resolved "https://registry.yarnpkg.com/@vue/composition-api/-/composition-api-1.6.2.tgz#8e65cf60cd919f23649951ed14a67d43cd32131d"
   integrity sha512-g6pCOaAB5Z987EwCBIDanRlramrgnWfrrYS8F/0axn2AL8EvyfAebDcLTSr48hac0G0rqC9ODp5LWaiupzl6Tw==
@@ -5399,6 +5400,13 @@ fb-watchman@^2.0.0:
   dependencies:
     bser "2.1.1"
 
+fetch-ponyfill@^7.1.0:
+  version "7.1.0"
+  resolved "https://registry.yarnpkg.com/fetch-ponyfill/-/fetch-ponyfill-7.1.0.tgz#4266ed48b4e64663a50ab7f7fcb8e76f990526d0"
+  integrity sha512-FhbbL55dj/qdVO3YNK7ZEkshvj3eQ7EuIGV2I6ic/2YiocvyWv+7jg2s4AyS0wdRU75s3tA8ZxI/xPigb0v5Aw==
+  dependencies:
+    node-fetch "~2.6.1"
+
 figgy-pudding@^3.5.1:
   version "3.5.2"
   resolved "https://registry.yarnpkg.com/figgy-pudding/-/figgy-pudding-3.5.2.tgz#b4eee8148abb01dcf1d1ac34367d59e12fa61d6e"
@@ -7943,6 +7951,11 @@ no-case@^3.0.4:
     lower-case "^2.0.2"
     tslib "^2.0.3"
 
+node-abort-controller@^3.1.1:
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/node-abort-controller/-/node-abort-controller-3.1.1.tgz#a94377e964a9a37ac3976d848cb5c765833b8548"
+  integrity sha512-AGK2yQKIjRuqnc6VkX2Xj5d+QW8xZ87pa1UK6yA6ouUyuxfHuMP6umE5QK7UmTeOAymo+Zx1Fxiuw9rVx8taHQ==
+
 node-addon-api@^1.7.1:
   version "1.7.2"
   resolved "https://registry.yarnpkg.com/node-addon-api/-/node-addon-api-1.7.2.tgz#3df30b95720b53c24e59948b49532b662444f54d"
@@ -7960,6 +7973,13 @@ node-fetch@^2.6.1:
   version "2.6.6"
   resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.6.tgz#1751a7c01834e8e1697758732e9efb6eeadfaf89"
   integrity sha512-Z8/6vRlTUChSdIgMa51jxQ4lrw/Jy5SOW10ObaA47/RElsAN2c5Pn8bTgFGWn/ibwzXTE8qwr1Yzx28vsecXEA==
+  dependencies:
+    whatwg-url "^5.0.0"
+
+node-fetch@~2.6.1:
+  version "2.6.9"
+  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.9.tgz#7c7f744b5cc6eb5fd404e0c7a9fec630a55657e6"
+  integrity sha512-DJm/CJkZkRjKKj4Zi4BsKVZh3ValV5IR5s7LVZnW+6YMh0W1BfNA8XSs6DLMGYlId5F3KnA70uu2qepcR08Qqg==
   dependencies:
     whatwg-url "^5.0.0"
 
@@ -9399,7 +9419,7 @@ prettier-linter-helpers@^1.0.0:
   dependencies:
     fast-diff "^1.1.2"
 
-"prettier@^1.18.2 || ^2.0.0", prettier@^2.5.1:
+"prettier@^1.18.2 || ^2.0.0":
   version "2.5.1"
   resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.5.1.tgz#fff75fa9d519c54cf0fce328c1017d94546bc56a"
   integrity sha512-vBZcPRUR5MZJwoyi3ZoyQlc1rXeEck8KgeC9AwwOn+exuxLxq5toTRDTSaVrXHxelDMHy9zlicw8u66yxoSUFg==
@@ -9954,11 +9974,6 @@ ripemd160@^2.0.0, ripemd160@^2.0.1:
     hash-base "^3.0.0"
     inherits "^2.0.1"
 
-rollup-plugin-mjs-entry@^0.1.1:
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/rollup-plugin-mjs-entry/-/rollup-plugin-mjs-entry-0.1.1.tgz#b3ab47e8d49ddb1916e36ba2480dc8a62a22d533"
-  integrity sha512-uii0Txyrn4YCgP++fypLqsT3LgO3Fx0gAZLZlWRSwKCuZ+bdSzAzdVbJFATmCHcBNlO61i65EgemOVdVQYONHA==
-
 run-async@^2.4.0:
   version "2.4.1"
   resolved "https://registry.yarnpkg.com/run-async/-/run-async-2.4.1.tgz#8440eccf99ea3e70bd409d49aab88e10c189a455"
@@ -10493,13 +10508,10 @@ std-env@^3.0.1:
   resolved "https://registry.yarnpkg.com/std-env/-/std-env-3.0.1.tgz#bc4cbc0e438610197e34c2d79c3df30b491f5182"
   integrity sha512-mC1Ps9l77/97qeOZc+HrOL7TIaOboHqMZ24dGVQrlxFcpPpfCHpH+qfUT7Dz+6mlG8+JPA1KfBQo19iC/+Ngcw==
 
-storyblok-js-client@^4.5.2:
-  version "4.5.2"
-  resolved "https://registry.yarnpkg.com/storyblok-js-client/-/storyblok-js-client-4.5.2.tgz#f93ae4822fd5710737a516d474a5dd40ee80b96c"
-  integrity sha512-86On+EyREZdbTcYTV+0dRQ1E4Gy0hPWs43MxK5VOv6DRwbf1A7haXq6dUL8nm9i5+xgOB0GLJW0f3B9CHbq4sQ==
-  dependencies:
-    prettier "^2.5.1"
-    rollup-plugin-mjs-entry "^0.1.1"
+storyblok-js-client@^5.10.1:
+  version "5.10.2"
+  resolved "https://registry.yarnpkg.com/storyblok-js-client/-/storyblok-js-client-5.10.2.tgz#049e9637c9a37924093309eb4cdce90c2965d438"
+  integrity sha512-Im/xN9PApDvZbONPYv3SpzjfIfXK63uPf6/eYJPvdIWnzCiWY5hlc2UYkoCR4YoaQBBOEBP1UUcGr5QjesOULg==
 
 stream-browserify@^2.0.1:
   version "2.0.2"
